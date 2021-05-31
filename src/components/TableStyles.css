@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 2px 8px 3px rgba(128, 128, 128, 0.205);
+    border-radius: 2px;
+    padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 0.5rem;
+        box-shadow: none;
+        padding: 1rem 1rem;
+    }
+    h1 {
+        font-size: 1.1em;
+        padding-top: 1rem;
+    }
+}
